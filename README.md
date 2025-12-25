@@ -71,3 +71,47 @@
 ## 🛠️ 安裝與執行 (Installation & Usage)
 
 ### 專案結構
+
+### 專案結構
+edu-analytics-finalgrade/ ├── src/ │ ├── preprocessing.py # 資料清理與特徵工程 │ └── modeling.py # 模型訓練腳本 ├── outputs/ # 輸出之圖表與結果 ├── Project.ipynb # 完整分析流程 (Jupyter Notebook) ├── requirements.txt # 依賴套件 └── README.md # 專案說明文件
+
+
+### 重現步驟
+請依序執行以下指令來重現本專案結果：
+
+1.  **Clone 專案**
+    ```bash
+    git clone [https://github.com/YourUsername/edu-analytics-finalgrade.git](https://github.com/YourUsername/edu-analytics-finalgrade.git)
+    cd edu-analytics-finalgrade
+    ```
+
+2.  **建立虛擬環境 (Optional but recommended)**
+    ```bash
+    python -m venv .venv
+    # Windows
+    .venv\Scripts\activate
+    # Mac/Linux
+    source .venv/bin/activate
+    ```
+
+3.  **安裝依賴套件**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **執行分析**
+    * 你可以直接開啟 `Project.ipynb` 查看完整圖表與程式碼。
+    * 或者執行腳本：
+    ```bash
+    python src/run_all.py
+    ```
+
+---
+
+## 📝 作者 (Author)
+* **劉昱谷 (Yu-Gu Liu)**
+* 學號：41275047H
+* 課程：機器學習在教育上的應用 (Machine Learning in Education)
+
+---
+*本專案程式碼與分析結果僅供學術研究與課程作業使用。*
